@@ -19,7 +19,7 @@ string(stringname1,stringname2)# stringname1*stringname2
 >Key words: `repeat`, string`^`N
 ## Data structures
 | |Tuples|Dictionaries|Arrays|
- |-|-|-|-|
+ |:-:|:-:|:-:|:-:|
  |Mutablity|No|Yes|Yes|
 |Orderlity|Yes|No|Yes|
  |Syntax|(item1, item2, ...)|Dict(key1 => value1, key2 => value2, ...)|[item1, item2, ...]|
@@ -115,7 +115,7 @@ f.([1, 2, 3])
 >Note: ~~`vector^2`~~, `vector.^2`==`(every element of a vector)^2`
 
 ```julia
-A .+ 2 .* f.(A) ./ A
+A .+ 2 .* f.(A) ./ A # A is a matrix
 ```
 or
 ```julia
