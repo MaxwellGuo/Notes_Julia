@@ -1,2 +1,2 @@
 # Notes_Julia
-Some study notes of Julia
+Some study notes about julia programming language.
